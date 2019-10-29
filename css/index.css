@@ -1,0 +1,220 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    background: lightblue;
+}
+body a{
+    text-decoration: none;
+}
+body ul{
+    list-style: none;
+}
+/* header */
+header{
+    /* width: 100%; */
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    transform: translateX(-50%);
+}
+
+header h1.banner{font-size: 60px;color: #3c2525;}
+
+.header-content {
+    background: white;
+    padding: 80px 0px;
+    box-shadow: 0px 0px 17px 0px;
+}
+
+.header-content .ten {
+    width: 50%;
+}
+
+.header-content .cv {
+    width: 50%;
+}
+
+.header-content .cv h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    margin-left: auto;
+    color: lawngreen;
+}
+.header-content .cv h1:hover{
+    color: #971a1a;
+    border-color: red  ;
+}
+header h3.note-banner{font-size: 30px;color: blue;}
+/* section */
+section .section-content {
+    padding-bottom: 50px;
+}
+section .section-content .about-me {
+    width: 30%;
+    background: black;
+    padding-top: 314px;
+    padding-bottom: 20px;
+}
+
+.content-about{
+    color: white;
+}
+
+.about-me .content-about h1 {
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 400;
+}
+
+.about-me .content-about li {
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 2;
+}
+
+li.hr {
+    background: white;
+    height: 1px;
+    margin: 15px;
+    text-indent: -9999px;
+}
+section .section-content .exp-me {
+    width: 70%;
+    padding-left: 40px;
+    padding-top: 345px;
+    background: white;
+    padding-right: 40px;
+}
+.hoc-van{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hoc-van h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px;
+    color: brown;
+}
+.hoc-van ul li {
+    font-size: 20px;
+    line-height: 2;
+    border-bottom: 1px gray solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.hoc-van .trai {
+    border-right: 1px gray solid;
+    padding-right: 0px;
+    width: 25%;
+}
+
+.hoc-van .phai {
+    margin-left: 20px;
+    width: 85%;
+}
+.san-pham .sp {
+    border: 1px solid blue;
+    text-align: center;
+    margin: 10% 30%;
+    box-shadow: inset 2px 1px 4px 4px;
+    padding: 10px;
+}
+
+.sp button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #971a1a;
+    font-size: 17px;
+}
+.sp button:hover{
+    background: blue;
+}
+.sp button:hover a{
+    color: white;
+}
+.sp button a {
+    color: gray;
+}
+.skill{
+    margin-top: 10%;
+    text-align: center;
+    border: 1px solid;
+    padding: 30px;
+    margin: 10%;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.skill h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: brown;
+}
+
+.skill ul {width: 50%;margin: auto;}
+
+.skill li {
+    line-height: 2;
+}
+
+.skill li .phai {
+    color: yellow;
+}
+
+.skill li .trai {
+    color: gray;
+}
+
+.skill .trai {
+    width: 50%;
+}
+
+.skill .phai {
+    width: 50%;
+}
+/* avatar */
+.avatar img {
+    max-width: 100%;
+}
+/* footer */
+footer{
+    
+background: #87878b;
+    
+height: 80px;
+}
+
+footer .footer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.footer span {
+    margin-left: 10px;
+    color: white;
+}
+
+.footer i {
+    color: aliceblue;
+}
+/* css shared */
+.width-destop{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.cols{
+    display: flex;
+}
